@@ -1,0 +1,39 @@
+cat > .gitignore << 'EOF'
+# Virtual Environment
+env/
+venv/
+ENV/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (optional - uncomment if you don't want to track large data files)
+# *.csv
+# *.xlsx
+# *.json
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+EOF
