@@ -58,7 +58,7 @@ burkinaFasoAndGhanaPopDataAnalysis/
 ├── notebook/
 │   └── FinalTest.ipynb      # Complete analysis notebook with visualizations
 └── presentation/
-    └── [Project presentation files]
+    └── Group4Presentation.pdf
 ```
 
 ---
